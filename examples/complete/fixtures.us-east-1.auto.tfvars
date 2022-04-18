@@ -1,8 +1,8 @@
-region = "us-east-2"
+region = "us-east-1"
 
-availability_zones = ["us-east-2a"]
+availability_zones = ["us-east-1a"]
 
-namespace = "eg"
+namespace = "cular-emr"
 
 stage = "test"
 
@@ -40,6 +40,6 @@ master_instance_group_ebs_volumes_per_instance = 1
 
 create_task_instance_group = false
 
-ssh_public_key_path = "/secrets"
+ssh_public_key_path = "secrets"
 
 generate_ssh_key = true
